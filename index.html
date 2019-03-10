@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="global__container">
+
+    <nav class="nav__main">
+
+      <div class="nav__menu">
+        <div class="nav__logo">
+          <div class="logo">
+          </div>
+        </div>
+        <a href="" class="btn--icon"><i class="fas fa-bars"></i></a> 
+      </div>
+
+      <ul class="nav__icons">
+        <li><a href="" class="btn--icon"><i class="far fa-file-alt"></i></a></li>
+        <li><a href="" class="btn--icon"><i class="far fa-clipboard"></i></a></li>
+        <li><a href="" class="btn--icon"><i class="far fa-file"></i></a></li>
+        <li><a href="" class="btn--icon"><i class="far fa-id-card"></i></a></li>
+        <li><a href="" class="btn--icon"><i class="fas fa-shield-alt"></i></a></li>
+        <li><a href="" class="btn--icon"><i class="fas fa-microphone"></i></a></li>
+        <li><a href="" class="btn--icon"><i class="far fa-comment"></i></a></li>
+      </ul>
+      
+      <div class="nav__info">
+        <a href="" class="btn--icon"><i class="fas fa-th"></i></a>
+        <a href="" class="btn--icon"><i class="far fa-question-circle"></i></a>
+      </div>
+
+    </nav>
+
+    <div class="main__container">
+
+      <div class="nav__top">
+        <div class="search__bar">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search, student, assignment, etc">
+        </div>
+
+        <div class="tools">
+            <div class="bell__wrapper"><button class="btn--icon"><i class="far fa-bell"></i></button><div class="badge">5</div></div>
+            <div class="profile__avatar">
+              <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Profile picture">
+            </div>
+        </div>
+      </div>
+
+      <main>
+        <div class="wizard">
+          <ul>
+            <li>
+              <label class="checkmark__container">Start
+                <input type="checkbox"> 
+                <span class="checkmark"></span> 
+              </label>
+            </li>
+            <li class="divider"></li>
+            <li class="active">
+              <label class="checkmark__container">Design
+                <input type="checkbox"> 
+                <span class="checkmark"></span> 
+              </label>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <label class="checkmark__container">Assign
+                <input type="checkbox"> 
+                <span class="checkmark"></span> 
+              </label>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <label class="checkmark__container">Share
+                <input type="checkbox"> 
+                <span class="checkmark"></span> 
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <h3>New Assignment - Questionnaire</h3>
+
+        <div class="class__assignment">
+          
+          <div class="class__title">
+            <h2>Physics Assignment - 3 for class 10</h2>
+            <div class="label__default__group">
+              <label for="" class="label--default">Physics</label>
+              <label for="" class="label--default">Class 10</label>
+              <label for="" class="label--default">Section D</label>
+            </div>
+          </div>
+
+          <div class="button__group">
+            <button class="btn--gradient"><i class="fas fa-compress-arrows-alt"></i>Collapse all questions</button>
+            <label for="" class="label--default label--default--lg">Questions created: <span>4</span></label>
+            <label for="" class="label--default label--default--lg">Marks: <span>20</span></label>
+          </div>
+
+        </div>
+
+        <div class="questionnaire__level">
+
+          <div class="main__questionnaire">
+            <h5>Question 1</h5>
+
+            <div class="question__container">
+              <div class="grip"><i class="fas fa-grip-vertical"></i></div>
+
+              <div class="question"><p>Which of the below statement applies to newton's law of gravity?</p></div>
+              <button class="btn--add"><i class="fas fa-plus"></i></button>
+            </div>
+
+            <div class="task__list">
+              
+              <ul>
+                <li>
+                  <label class="checkmark__container">Design Flyer
+                    <input type="checkbox"> 
+                    <span class="checkmark"></span> 
+                  </label>
+                </li>
+                <li class="divider"></li>
+                <li class="active">
+                  <label class="checkmark__container">Add more customer email to the may month sale campaign
+                    <input type="checkbox"> 
+                    <span class="checkmark"></span> 
+                  </label>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <label class="checkmark__container">Add your biodata
+                    <input type="checkbox"> 
+                    <span class="checkmark"></span> 
+                  </label>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <label class="checkmark__container">Schedule your meetings
+                    <input type="checkbox"> 
+                    <span class="checkmark"></span> 
+                  </label>
+                </li>
+              </ul>
+
+            </div>
+            
+            <div class="question__buttons">
+              <button class="btn--medium btn--primary"><i class="fas fa-plus-circle"></i>Add more option</button>
+              <button class="btn--medium"><i class="fas fa-plus"></i>Add to question bank</button>
+              <button class="btn--medium">View K-12 Standards</button>
+            </div>
+
+          </div>
+
+          <div class="level__class">
+
+            <div class="input__text input--text--lg">
+              <label for="">Enter weighting</label>
+              <input type="text" value="0">
+            </div>
+
+            <div class="level__dropdown">
+                <div class="dropdown dropdown--lg">
+                  <p>Level 7</p>
+                  <a href="" class="open__level"><i class="fas fa-angle-down"></i></a> 
+                </div>
+                <div class="dropdown">
+                  <p>10 Percentaje</p>
+                  <a href="" class="open__level"><i class="fas fa-angle-down"></i></a> 
+                </div>
+            </div>
+
+            <div class="level__options">
+              <div class="file">
+                <button class="btn--icon btn--icon--lg active"><i class="fas fa-bullseye"></i></button>
+                <button class="btn--icon btn--icon--lg"><i class="fas fa-prescription-bottle"></i></button>
+                <a href="">K12 - 6.1 Accounting</a>
+              </div>
+
+              <div class="file">
+                <button class="btn--icon btn--icon--lg"><i class="fas fa-compress-arrows-alt"></i></button>
+                <button class="btn--icon btn--icon--lg"><i class="far fa-file-alt"></i></button>
+                <a href="" class="active">www.link.com/resource</a>
+                <button class=" btn--icon btn--icon--lg"><i class="far fa-trash-alt"></i></button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="add__question">
+          <div class="floating--btn--container">
+            <div class="btn--add--question">
+                <i class="fas fa-plus-circle"></i>Add question
+                <div class="floating__actions visible">
+                  <button class="btn--circle"><i class="far fa-dot-circle"></i></button>
+                  <button class="btn--circle"><i class="fas fa-font"></i></button>
+                  <button class="btn--circle"><i class="fas fa-arrows-alt-h"></i></button>
+                  <div class="tooltip">
+                    <span class="tooltiptext">Add Fill</span>
+                    <button class="btn--circle"><i class="fas fa-i-cursor"></i></button>
+                  </div> 
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="questions__list">
+
+          <div class="question__container__list">
+
+            <div class="question">
+              <div class="grip"><i class="fas fa-grip-vertical"></i></div>
+
+              <div class="question__details">
+                <h6 class="question__number">Question 2</h6>
+                <p>Explain the laws of creativity in brief<span class="badge--default">Text</span></p>
+              </div>
+
+              <div class="question__actions">
+
+                <div class="input__text input--text--sm">
+                  <label for="">Enter weighting</label>
+                  <input type="text" value="0">
+                </div>
+
+                <div class="question__dropdown">
+                    <div class="dropdown dropdown--md">
+                      <p>Level 7</p>
+                      <a href="" class="open__level"><i class="fas fa-angle-down"></i></a> 
+                    </div>
+                    <div class="dropdown dropdown--md">
+                      <p>10 Percentaje</p>
+                      <a href="" class="open__level"><i class="fas fa-angle-down"></i></a> 
+                    </div>
+                </div>
+
+                <button class="btn--icon btn--icon--question active"><i class="fas fa-bullseye"></i></button>
+                <button class="btn--icon btn--icon--question"><i class="fas fa-prescription-bottle"></i></button>
+                <button class="btn--icon btn--icon--question"><i class="far fa-file-alt"></i><div class="badge">3</div></button>
+                <button class="btn--icon btn--icon--question"><i class="far fa-trash-alt"></i></button>
+                <button class="btn--icon btn--icon--question"><i class="fas fa-expand-arrows-alt"></i></button>
+
+              </div>
+
+            </div>
+
+            <div class="question">
+                <div class="grip"><i class="fas fa-grip-vertical"></i></div>
+  
+                <div class="question__details">
+                  <h6 class="question__number">Question 2</h6>
+                  <p>Explain the laws of creativity in brief<span class="badge--default">Text</span></p>
+                </div>
+  
+                <div class="question__actions">
+  
+                  <div class="input__text input--text--sm">
+                    <label for="">Enter weighting</label>
+                    <input type="text" value="0">
+                  </div>
+  
+                  <div class="question__dropdown">
+                      <div class="dropdown dropdown--md">
+                        <p>Level 7</p>
+                        <a href="" class="open__level"><i class="fas fa-angle-down"></i></a> 
+                      </div>
+                      <div class="dropdown dropdown--md">
+                        <p>10 Percentaje</p>
+                        <a href="" class="open__level"><i class="fas fa-angle-down"></i></a> 
+                      </div>
+                  </div>
+  
+                  <button class="btn--icon btn--icon--question active"><i class="fas fa-bullseye"></i></button>
+                  <button class="btn--icon btn--icon--question"><i class="fas fa-prescription-bottle"></i></button>
+                  <button class="btn--icon btn--icon--question"><i class="far fa-file-alt"></i><div class="badge">3</div></button>
+                  <button class="btn--icon btn--icon--question"><i class="far fa-trash-alt"></i></button>
+                  <button class="btn--icon btn--icon--question"><i class="fas fa-expand-arrows-alt"></i></button>
+  
+                </div>
+  
+              </div>
+
+              <div class="question">
+                  <div class="grip"><i class="fas fa-grip-vertical"></i></div>
+    
+                  <div class="question__details">
+                    <h6 class="question__number">Question 2</h6>
+                    <p>Explain the laws of creativity in brief<span class="badge--default">Text</span></p>
+                  </div>
+    
+                  <div class="question__actions">
+    
+                    <div class="input__text input--text--sm">
+                      <label for="">Enter weighting</label>
+                      <input type="text" value="0">
+                    </div>
+    
+                    <div class="question__dropdown">
+                        <div class="dropdown dropdown--md">
+                          <p>Level 7</p>
+                          <a href="" class="open__level"><i class="fas fa-angle-down"></i></a> 
+                        </div>
+                        <div class="dropdown dropdown--md">
+                          <p>10 Percentaje</p>
+                          <a href="" class="open__level"><i class="fas fa-angle-down"></i></a> 
+                        </div>
+                    </div>
+    
+                    <button class="btn--icon btn--icon--question active"><i class="fas fa-bullseye"></i></button>
+                    <button class="btn--icon btn--icon--question"><i class="fas fa-prescription-bottle"></i></button>
+                    <button class="btn--icon btn--icon--question"><i class="far fa-file-alt"></i><div class="badge">3</div></button>
+                    <button class="btn--icon btn--icon--question"><i class="far fa-trash-alt"></i></button>
+                    <button class="btn--icon btn--icon--question"><i class="fas fa-expand-arrows-alt"></i></button>
+    
+                  </div>
+    
+                </div>
+
+          </div>
+
+        </div>
+
+        <div class="add__more__questions">
+          <p>Add Question</p>
+
+          <div class="more__options">
+            <button class="btn--large">Choice<i class="fas fa-plus"></i></button>
+            <button class="btn--large active">Text<i class="fas fa-plus"></i></button>
+            <button class="btn--large">Match<i class="fas fa-plus"></i></button>
+            <button class="btn--large">Fill<i class="fas fa-plus"></i></button>
+          </div>
+
+        </div>
+
+      </main>
+
+    </div>
+
+    <div class="change__page">
+      <button class="btn--xl">Back</button>
+      <button class="btn--xl btn--primary">Next</button>
+    </div>
+
+  </div>
+
+  <script src="script/main.js"></script>
+</body>
+</html>
